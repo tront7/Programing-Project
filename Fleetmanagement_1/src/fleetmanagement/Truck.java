@@ -10,6 +10,6 @@ public class Truck extends Vehicle {
 
     @Override
     public String getDetails() {
-        return String.format("Truck: %d %s %s with %.1f ton capacity", getYear(), getMake(), getModel(), cargoCapacityTons);
+        return String.format("Truck: %d %s %s with %.1f ton capacity", getYear(), getMake(), getModel(), this.cargoCapacityTons);
     }
 }
